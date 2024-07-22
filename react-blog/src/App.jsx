@@ -57,6 +57,18 @@ function App() {
         </p>
         <hr />
       </div>
+
+      <Modal />
+    </div>
+  );
+}
+
+function Modal() {
+  return (
+    <div className="modal">
+      <h2>Title</h2>
+      <p>Date</p>
+      <p>Content</p>
     </div>
   );
 }
